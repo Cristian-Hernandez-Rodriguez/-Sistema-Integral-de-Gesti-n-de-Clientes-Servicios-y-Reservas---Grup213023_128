@@ -6,7 +6,7 @@
 
 # Software FJ
 ## ¿Cómo ejecutar?
-1. Tener Python 3.10 o superior instalado
+1. Tener Python instalado
 2. Abrir cmd
 3. Entrar a la carpeta del proyecto
 4. Ejecutar: python main.py
