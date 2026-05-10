@@ -1,4 +1,4 @@
-# -Sistema-Integral-de-Gesti-n-de-Clientes-Servicios-y-Reservas---Grup213023_128
+# -Sistema-Integral-de-Gestion-de-Clientes-Servicios-y-Reservas---Grup213023_128
 # Trabajo realizo en conjunto por 3 de 5 estudiantes
 # Estudiantes: Cristian Andres Hernandez Rodriguez, Juan Esteban Nisperuza Martinez, Jose David Martinez Morin
 # Grupo: (213023_128)
