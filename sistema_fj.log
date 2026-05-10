@@ -1,0 +1,120 @@
+[2026-05-07 22:29:07] [INFO ] GestorSistema inicializado
+[2026-05-07 22:29:07] [INFO ] Cliente registrado: María Rodríguez (doc=CC1098765432)
+[2026-05-07 22:29:07] [ERROR] Error registrando cliente | Excepción: ClienteInvalidoError: Dato inválido en campo 'correo': 'correo_sin_arroba'
+[2026-05-07 22:29:07] [INFO ] Cliente registrado: Carlos Gómez (doc=CE98765432)
+[2026-05-07 22:29:07] [INFO ] Servicio ReservaSala creado: Sala Orión, cap=10
+[2026-05-07 22:29:07] [INFO ] Servicio AlquilerEquipo creado: Laptop Dell XPS, stock=3
+[2026-05-07 22:29:07] [INFO ] Servicio Asesoría creado: Consultoría Tech, esp=Tecnología, nivel=2
+[2026-05-07 22:29:07] [INFO ] Servicio agregado al gestor: Sala Orión
+[2026-05-07 22:29:07] [INFO ] Servicio agregado al gestor: Laptop Dell XPS
+[2026-05-07 22:29:07] [INFO ] Servicio agregado al gestor: Consultoría Tech
+[2026-05-07 22:29:07] [INFO ] Reserva #1 creada: cliente=María Rodríguez, servicio=Sala Orión, horas=3
+[2026-05-07 22:29:07] [INFO ] Reserva #1 confirmada para 'María Rodríguez'
+[2026-05-07 22:29:07] [INFO ] Reserva #1 procesada. Costo=$257,040.00
+[2026-05-07 22:29:07] [INFO ] Reserva #1 — fin de procesamiento. Estado=Procesada
+[2026-05-07 22:29:07] [INFO ] Reserva #2 creada: cliente=Carlos Gómez, servicio=Laptop Dell XPS, horas=16
+[2026-05-07 22:29:07] [INFO ] Reserva #2 procesada. Costo=$357,000.00
+[2026-05-07 22:29:07] [INFO ] Reserva #2 — fin de procesamiento. Estado=Procesada
+[2026-05-07 22:29:07] [INFO ] Reserva #3 creada: cliente=María Rodríguez, servicio=Consultoría Tech, horas=4
+[2026-05-07 22:29:07] [INFO ] Reserva #3 confirmada para 'María Rodríguez'
+[2026-05-07 22:29:07] [INFO ] Reserva #3 procesada. Costo=$1,428,000.00
+[2026-05-07 22:29:07] [INFO ] Reserva #3 — fin de procesamiento. Estado=Procesada
+[2026-05-07 22:29:07] [ERROR] Error creando reserva | Excepción: ReservaInvalidaError: Reserva inválida — Cálculo inconsistente: Duración debe ser > 0 horas
+[2026-05-07 22:29:07] [ERROR] Reserva #1: cancelación rechazada | Excepción: OperacionNoPermitidaError: Operación no permitida: 'cancelar' — no se puede cancelar una reserva ya procesada
+[2026-05-07 22:29:07] [ERROR] Error creando reserva | Excepción: ReservaInvalidaError: Reserva inválida — Servicio 'Sala Orión' no disponible: marcado como no disponible
+[2026-05-07 22:29:15] [INFO ] GestorSistema inicializado
+[2026-05-07 22:29:15] [INFO ] Cliente registrado: María Rodríguez (doc=CC1098765432)
+[2026-05-07 22:29:15] [ERROR] Error registrando cliente | Excepción: ClienteInvalidoError: Dato inválido en campo 'correo': 'correo_sin_arroba'
+[2026-05-07 22:29:15] [INFO ] Cliente registrado: Carlos Gómez (doc=CE98765432)
+[2026-05-07 22:29:15] [INFO ] Servicio ReservaSala creado: Sala Orión, cap=10
+[2026-05-07 22:29:15] [INFO ] Servicio AlquilerEquipo creado: Laptop Dell XPS, stock=3
+[2026-05-07 22:29:15] [INFO ] Servicio Asesoría creado: Consultoría Tech, esp=Tecnología, nivel=2
+[2026-05-07 22:29:15] [INFO ] Servicio agregado al gestor: Sala Orión
+[2026-05-07 22:29:15] [INFO ] Servicio agregado al gestor: Laptop Dell XPS
+[2026-05-07 22:29:15] [INFO ] Servicio agregado al gestor: Consultoría Tech
+[2026-05-07 22:29:15] [INFO ] Reserva #1 creada: cliente=María Rodríguez, servicio=Sala Orión, horas=3
+[2026-05-07 22:29:15] [INFO ] Reserva #1 confirmada para 'María Rodríguez'
+[2026-05-07 22:29:15] [INFO ] Reserva #1 procesada. Costo=$257,040.00
+[2026-05-07 22:29:15] [INFO ] Reserva #1 — fin de procesamiento. Estado=Procesada
+[2026-05-07 22:29:15] [INFO ] Reserva #2 creada: cliente=Carlos Gómez, servicio=Laptop Dell XPS, horas=16
+[2026-05-07 22:29:15] [INFO ] Reserva #2 procesada. Costo=$357,000.00
+[2026-05-07 22:29:15] [INFO ] Reserva #2 — fin de procesamiento. Estado=Procesada
+[2026-05-07 22:29:15] [INFO ] Reserva #3 creada: cliente=María Rodríguez, servicio=Consultoría Tech, horas=4
+[2026-05-07 22:29:15] [INFO ] Reserva #3 confirmada para 'María Rodríguez'
+[2026-05-07 22:29:15] [INFO ] Reserva #3 procesada. Costo=$1,428,000.00
+[2026-05-07 22:29:15] [INFO ] Reserva #3 — fin de procesamiento. Estado=Procesada
+[2026-05-07 22:29:15] [ERROR] Error creando reserva | Excepción: ReservaInvalidaError: Reserva inválida — Cálculo inconsistente: Duración debe ser > 0 horas
+[2026-05-07 22:29:15] [ERROR] Reserva #1: cancelación rechazada | Excepción: OperacionNoPermitidaError: Operación no permitida: 'cancelar' — no se puede cancelar una reserva ya procesada
+[2026-05-07 22:29:15] [ERROR] Error creando reserva | Excepción: ReservaInvalidaError: Reserva inválida — Servicio 'Sala Orión' no disponible: marcado como no disponible
+[2026-05-07 18:16:47] [INFO ] GestorSistema inicializado
+[2026-05-07 18:16:47] [INFO ] Cliente registrado: María Rodríguez (doc=CC1098765432)
+[2026-05-07 18:16:47] [ERROR] Error registrando cliente | Excepción: ClienteInvalidoError: Dato inválido en campo 'correo': 'correo_sin_arroba'
+[2026-05-07 18:16:47] [INFO ] Cliente registrado: Carlos Gómez (doc=CE98765432)
+[2026-05-07 18:16:47] [INFO ] Servicio ReservaSala creado: Sala Orión, cap=10
+[2026-05-07 18:16:47] [INFO ] Servicio AlquilerEquipo creado: Laptop Dell XPS, stock=3
+[2026-05-07 18:16:47] [INFO ] Servicio Asesoría creado: Consultoría Tech, esp=Tecnología, nivel=2
+[2026-05-07 18:16:47] [INFO ] Servicio agregado al gestor: Sala Orión
+[2026-05-07 18:16:47] [INFO ] Servicio agregado al gestor: Laptop Dell XPS
+[2026-05-07 18:16:47] [INFO ] Servicio agregado al gestor: Consultoría Tech
+[2026-05-07 18:16:47] [INFO ] Reserva #1 creada: cliente=María Rodríguez, servicio=Sala Orión, horas=3
+[2026-05-07 18:16:47] [INFO ] Reserva #1 confirmada para 'María Rodríguez'
+[2026-05-07 18:16:47] [INFO ] Reserva #1 procesada. Costo=$257,040.00
+[2026-05-07 18:16:47] [INFO ] Reserva #1 — fin de procesamiento. Estado=Procesada
+[2026-05-07 18:16:47] [INFO ] Reserva #2 creada: cliente=Carlos Gómez, servicio=Laptop Dell XPS, horas=16
+[2026-05-07 18:16:47] [INFO ] Reserva #2 procesada. Costo=$357,000.00
+[2026-05-07 18:16:47] [INFO ] Reserva #2 — fin de procesamiento. Estado=Procesada
+[2026-05-07 18:16:47] [INFO ] Reserva #3 creada: cliente=María Rodríguez, servicio=Consultoría Tech, horas=4
+[2026-05-07 18:16:47] [INFO ] Reserva #3 confirmada para 'María Rodríguez'
+[2026-05-07 18:16:47] [INFO ] Reserva #3 procesada. Costo=$1,428,000.00
+[2026-05-07 18:16:47] [INFO ] Reserva #3 — fin de procesamiento. Estado=Procesada
+[2026-05-07 18:16:47] [ERROR] Error creando reserva | Excepción: ReservaInvalidaError: Reserva inválida — Cálculo inconsistente: Duración debe ser > 0 horas
+[2026-05-07 18:16:47] [ERROR] Reserva #1: cancelación rechazada | Excepción: OperacionNoPermitidaError: Operación no permitida: 'cancelar' — no se puede cancelar una reserva ya procesada
+[2026-05-07 18:16:47] [ERROR] Error creando reserva | Excepción: ReservaInvalidaError: Reserva inválida — Servicio 'Sala Orión' no disponible: marcado como no disponible
+[2026-05-10 11:12:40] [INFO ] GestorSistema inicializado
+[2026-05-10 11:12:40] [INFO ] Cliente registrado: María Rodríguez (doc=CC1098765432)
+[2026-05-10 11:12:40] [ERROR] Error registrando cliente | Excepción: ClienteInvalidoError: Dato inválido en campo 'correo': 'correo_sin_arroba'
+[2026-05-10 11:12:40] [INFO ] Cliente registrado: Carlos Gómez (doc=CE98765432)
+[2026-05-10 11:12:40] [INFO ] Servicio ReservaSala creado: Sala Orión, cap=10
+[2026-05-10 11:12:40] [INFO ] Servicio AlquilerEquipo creado: Laptop Dell XPS, stock=3
+[2026-05-10 11:12:40] [INFO ] Servicio Asesoría creado: Consultoría Tech, esp=Tecnología, nivel=2
+[2026-05-10 11:12:40] [INFO ] Servicio agregado al gestor: Sala Orión
+[2026-05-10 11:12:40] [INFO ] Servicio agregado al gestor: Laptop Dell XPS
+[2026-05-10 11:12:40] [INFO ] Servicio agregado al gestor: Consultoría Tech
+[2026-05-10 11:12:40] [INFO ] Reserva #1 creada: cliente=María Rodríguez, servicio=Sala Orión, horas=3
+[2026-05-10 11:12:40] [INFO ] Reserva #1 confirmada para 'María Rodríguez'
+[2026-05-10 11:12:40] [INFO ] Reserva #1 procesada. Costo=$257,040.00
+[2026-05-10 11:12:40] [INFO ] Reserva #1 — fin de procesamiento. Estado=Procesada
+[2026-05-10 11:12:40] [INFO ] Reserva #2 creada: cliente=Carlos Gómez, servicio=Laptop Dell XPS, horas=16
+[2026-05-10 11:12:40] [INFO ] Reserva #2 procesada. Costo=$357,000.00
+[2026-05-10 11:12:40] [INFO ] Reserva #2 — fin de procesamiento. Estado=Procesada
+[2026-05-10 11:12:40] [INFO ] Reserva #3 creada: cliente=María Rodríguez, servicio=Consultoría Tech, horas=4
+[2026-05-10 11:12:40] [INFO ] Reserva #3 confirmada para 'María Rodríguez'
+[2026-05-10 11:12:40] [INFO ] Reserva #3 procesada. Costo=$1,428,000.00
+[2026-05-10 11:12:40] [INFO ] Reserva #3 — fin de procesamiento. Estado=Procesada
+[2026-05-10 11:12:40] [ERROR] Error creando reserva | Excepción: ReservaInvalidaError: Reserva inválida — Cálculo inconsistente: Duración debe ser > 0 horas
+[2026-05-10 11:12:40] [ERROR] Reserva #1: cancelación rechazada | Excepción: OperacionNoPermitidaError: Operación no permitida: 'cancelar' — no se puede cancelar una reserva ya procesada
+[2026-05-10 11:12:40] [ERROR] Error creando reserva | Excepción: ReservaInvalidaError: Reserva inválida — Servicio 'Sala Orión' no disponible: marcado como no disponible
+[2026-05-10 13:03:31] [INFO ] GestorSistema inicializado
+[2026-05-10 13:03:31] [INFO ] Cliente registrado: María Rodríguez (doc=CC1098765432)
+[2026-05-10 13:03:31] [ERROR] Error registrando cliente | Excepción: ClienteInvalidoError: Dato inválido en campo 'correo': 'correo_sin_arroba'
+[2026-05-10 13:03:31] [INFO ] Cliente registrado: Carlos Gómez (doc=CE98765432)
+[2026-05-10 13:03:31] [INFO ] Servicio ReservaSala creado: Sala Orión, cap=10
+[2026-05-10 13:03:31] [INFO ] Servicio AlquilerEquipo creado: Laptop Dell XPS, stock=3
+[2026-05-10 13:03:31] [INFO ] Servicio Asesoría creado: Consultoría Tech, esp=Tecnología, nivel=2
+[2026-05-10 13:03:31] [INFO ] Servicio agregado al gestor: Sala Orión
+[2026-05-10 13:03:31] [INFO ] Servicio agregado al gestor: Laptop Dell XPS
+[2026-05-10 13:03:31] [INFO ] Servicio agregado al gestor: Consultoría Tech
+[2026-05-10 13:03:31] [INFO ] Reserva #1 creada: cliente=María Rodríguez, servicio=Sala Orión, horas=3
+[2026-05-10 13:03:31] [INFO ] Reserva #1 confirmada para 'María Rodríguez'
+[2026-05-10 13:03:31] [INFO ] Reserva #1 procesada. Costo=$257,040.00
+[2026-05-10 13:03:31] [INFO ] Reserva #1 — fin de procesamiento. Estado=Procesada
+[2026-05-10 13:03:31] [INFO ] Reserva #2 creada: cliente=Carlos Gómez, servicio=Laptop Dell XPS, horas=16
+[2026-05-10 13:03:31] [INFO ] Reserva #2 procesada. Costo=$357,000.00
+[2026-05-10 13:03:31] [INFO ] Reserva #2 — fin de procesamiento. Estado=Procesada
+[2026-05-10 13:03:31] [INFO ] Reserva #3 creada: cliente=María Rodríguez, servicio=Consultoría Tech, horas=4
+[2026-05-10 13:03:31] [INFO ] Reserva #3 confirmada para 'María Rodríguez'
+[2026-05-10 13:03:31] [INFO ] Reserva #3 procesada. Costo=$1,428,000.00
+[2026-05-10 13:03:31] [INFO ] Reserva #3 — fin de procesamiento. Estado=Procesada
+[2026-05-10 13:03:31] [ERROR] Error creando reserva | Excepción: ReservaInvalidaError: Reserva inválida — Cálculo inconsistente: Duración debe ser > 0 horas
+[2026-05-10 13:03:31] [ERROR] Reserva #1: cancelación rechazada | Excepción: OperacionNoPermitidaError: Operación no permitida: 'cancelar' — no se puede cancelar una reserva ya procesada
+[2026-05-10 13:03:31] [ERROR] Error creando reserva | Excepción: ReservaInvalidaError: Reserva inválida — Servicio 'Sala Orión' no disponible: marcado como no disponible
